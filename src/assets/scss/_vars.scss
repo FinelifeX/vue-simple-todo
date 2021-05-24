@@ -1,3 +1,8 @@
+// Borders
+
+$border-radius-square: 2px;
+$border-radius-rounded: 6px;
+
 // Containers
 
 $container-padding-sm: 8px;
@@ -6,10 +11,16 @@ $container-padding-lg: 16px;
 
 // Buttons
 
-$button-padding-vertical-sm: 4px;
-$button-padding-vertical-md: 8px;
-$button-padding-vertical-lg: 12px;
+$button-padding-vertical-sm: 6px;
+$button-padding-vertical-md: 10px;
+$button-padding-vertical-lg: 14px;
 
-$button-padding-horizontal-sm: 8px;
-$button-padding-horizontal-md: 12px;
+$button-padding-horizontal-sm: 12px;
+$button-padding-horizontal-md: 14px;
 $button-padding-horizontal-lg: 16px;
+
+// Input
+
+$input-height-sm: 34px;
+$input-height-md: 40px;
+$input-height-lg: 46px;

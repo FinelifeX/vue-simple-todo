@@ -1,13 +1,23 @@
 <template>
-$END$
+  <input
+    class="input"
+    v-bind="$attrs"
+    :value="value"
+    v-on:input="$emit('input', $event.target.value)"
+  />
 </template>
 
 <script>
 export default {
-name: "Input"
-}
+  name: "Input",
+  props: ["value"],
+};
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import "../assets/scss/mixins";
 
+.input {
+  @include input-default;
+}
 </style>
